@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+	<style type="text/css">
+
+		label {
+			color:#2F4F4F;
+			margin-left:15px;
+			font-family: 'Acme', sans-serif;
+		}
+		.button{
+			margin-left: 38%;
+			margin-top: 4px;
+		}
+		.label_extra{
+			margin-left:33px;
+		}
+		body{
+			
+			background-image: radial-gradient(circle, #F5F5F5, #808080);
+			font-family:Tahoma;
+
+		}
+		h2{
+			margin-left:12px;
+			color:	#2F4F4F;
+			text-decoration: underline;
+		}
+	</style>
+</head>
+<body>
+	<form action="" method="post" name="newbee">
+		<div style="border: 1px groove darkgrey; border-radius: 15px; width: 172.5px; height:280px; background-image: linear-gradient(to bottom, #f1e767 0%,#feb645 100%); margin: 7% 43.5%;">
+			<h2>Registration</h2>
+			<br>
+			<label class="label_extra" name="newbee_name1">Your first name</label><input type="text" name="newbee_name1" placeholder="Enter your name...">
+			<br><br>
+			<label class="label_extra" name="newbee_name2">Your last name</label><input type="text" name="newbee_name2" placeholder="Enter your family name...">
+			<br><br>
+			<label name="newbee_name3">Your patronymic name</label><input type="text" name="newbee_name3" placeholder="Enter your patronymic...">
+
+			<input class="button" type="submit" name="newbee_action" value="Go!">
+		</div>
+	</form>
+</body>
+</html>
